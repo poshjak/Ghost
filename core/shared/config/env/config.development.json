@@ -1,11 +1,14 @@
 {
-    "url": "http://localhost:2368",
     "database": {
-        "client": "sqlite3",
+        "asyncStackTraces": true,
+        "debug": false,
+        "client": "mysql",
         "connection": {
-            "filename": "content/data/ghost-dev.db"
-        },
-        "debug": false
+            "user": "root",
+            "password": "toor",
+            "host": "localhost",
+            "database": "ghost_local"
+        }
     },
     "paths": {
         "contentPath": "content/"
@@ -21,6 +24,24 @@
         },
         "admin": {
             "maxAge": 0
+        }
+    },
+    "url": "https://ghost.localhost/blog",
+    "admin":{
+        "url": "https://ghost-admin.localhost/blog"
+    },
+    "mail": {
+        "from": "support@example.com",
+        "transport": "SMTP",
+        "options": {
+            "service": "Mailgun",
+            "host": "localhost",
+            "port": 1025,
+            "secure": false,
+            "auth": {
+                "user": "username",
+                "pass": "password"
+            }
         }
     }
 }

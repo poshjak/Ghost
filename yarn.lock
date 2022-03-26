@@ -8864,10 +8864,17 @@ mock-knex@0.4.10:
     lodash "^4.14.2"
     semver "^5.3.0"
 
-moment-timezone@0.5.23, moment-timezone@0.5.34, moment-timezone@^0.5.23, moment-timezone@^0.5.31, moment-timezone@^0.5.33:
+moment-timezone@0.5.23, moment-timezone@^0.5.23, moment-timezone@^0.5.31, moment-timezone@^0.5.33:
   version "0.5.23"
   resolved "https://registry.yarnpkg.com/moment-timezone/-/moment-timezone-0.5.23.tgz#7cbb00db2c14c71b19303cb47b0fb0a6d8651463"
   integrity sha512-WHFH85DkCfiNMDX5D3X7hpNH3/PUhjTGcD0U1SgfBGZxJ3qUmJh5FdvaFjcClxOvB3rzdfj4oRffbI38jEnC1w==
+  dependencies:
+    moment ">= 2.9.0"
+
+moment-timezone@0.5.34:
+  version "0.5.34"
+  resolved "https://registry.yarnpkg.com/moment-timezone/-/moment-timezone-0.5.34.tgz#a75938f7476b88f155d3504a9343f7519d9a405c"
+  integrity sha512-3zAEHh2hKUs3EXLESx/wsgw6IQdusOT8Bxm3D9UrHPQR7zlMmzwybC8zHEM1tQ4LJwP7fcxrWr8tuBg05fFCbg==
   dependencies:
     moment ">= 2.9.0"
 

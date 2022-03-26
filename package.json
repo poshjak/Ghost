@@ -163,7 +163,7 @@
     "metascraper-title": "5.26.0",
     "metascraper-url": "5.26.0",
     "moment": "2.24.0",
-    "moment-timezone": "0.5.23",
+    "moment-timezone": "0.5.34",
     "multer": "1.4.4",
     "mysql2": "2.3.3",
     "nconf": "0.11.3",

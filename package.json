@@ -162,7 +162,7 @@
     "metascraper-publisher": "5.28.2",
     "metascraper-title": "5.28.2",
     "metascraper-url": "5.28.2",
-    "moment": "2.24.0",
+    "moment": "2.29.2",
     "moment-timezone": "0.5.23",
     "multer": "1.4.4",
     "mysql2": "2.3.3",
